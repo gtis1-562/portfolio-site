@@ -22,9 +22,9 @@ function App() {
 
     <div className='img'>
 
-      <img className='back' src={img} alt="background image"/>
+      <img className='back' src={img} alt="background"/>
       <div className='top-info'>
-        <img id="gerardo" src={me} alt="my-image"/>
+        <img id="gerardo" src={me} alt="my-name"/>
       <h1 id='name'>Gerardo Talavera</h1>
       <h2>Developer</h2>
       </div>
