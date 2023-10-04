@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Martian+Mono:wght@600&family=Pixelify+Sans:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Martian+Mono:wght@600&family=Open+Sans:ital,wght@1,500&family=Pixelify+Sans:wght@600;700&display=swap');
+.app{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.img {
+  height: 80%;
+  display: flex;
+  position: relative;
+  background-color: #171717;
+}
+.top-info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+#gerardo{
+  border-radius: 20%;
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px gray;
+  height: 200px;
+  opacity: 90%;
+}
+#name{
+  font-size: 400%;
+}
+
+.back {
+  border-radius: 0 20px 20px 0;
+  opacity: 30%;
+  width: 100%;
+}
+.info {
+  height: 40%;
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.icons{
+  color:rgb(97, 115, 187);
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3, h4 {
+  color: #ffff;
+  font-family: 'Martian Mono', monospace;}
+h5{
+  color:gray;
+}
+p {
+  color: #989a9c;
+  font-family: 'Open Sans', sans-serif;
+}
+.i-do{
+  display: flex;
+  flex-direction: column;
+}
+.about-me {
+  height: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.about{
+  width: 30%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+}
+.github{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+.iconLink:hover {
+  cursor: pointer;
+}
+
+
+.projects {
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+}
+#project-head{
+  margin: 50px 0;
+}
+
+.project-1 {
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.project-2 {
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.images{
+height: 100%;
+width: 25%;
+}
+.images:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: .3s ease-in-out;
+}
+/* #mentor1{
+  background-size: 100%;
+  background-position: 0 0;
+}
+#mentor1:hover{
+  cursor: pointer;
+  background-size: 150%;
+  background-position: 50px 50px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+} */
+
+
+
+
+.contact {
+  height: 20%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.contact-info{
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+.contact-info p {
+  color: #989a9c;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .img{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .back {
+    width: 200%;
+  }
+  .about-me{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .about{
+    margin-top: -100%;
+    width: 100%;
+  }
+  .github{
+    margin-top: 30%;
+    margin-bottom: -70%;
+    width: 100%;
+  }
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .images{
+    width: 60%;
+    padding: 20px;
+  }
+
+}
