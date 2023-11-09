@@ -3,8 +3,9 @@ import img from './bck-img.png';
 import me from './me-img.png';
 import car from './cars.png';
 import monsters from './monsters-rolodex.png';
-import tip from './tip-calc.png';
-import job from './jobs.png';
+import ninja from './ninja-form.png';
+import calculator from './calculator-pro.png';
+import pokemon from './pokemon.png';
 import {FaLaptop, FaMobile, FaGithub, FaLinkedin, FaPhone, FaEnvelope} from 'react-icons/fa';
 
 
@@ -70,13 +71,13 @@ function App() {
       <h1 id='project-head'>Projects</h1>
       <div className="project-1">
         <img onClick={() => openInNewTab('https://statuesque-queijadas-3272df.netlify.app/')} className='images' src={monsters} alt='site1'/>
-      <img onClick={() => openInNewTab ('https://compassionate-kilby-d325c4.netlify.app/')} className='images' src={tip} alt='site2'/>
+      <img onClick={() => openInNewTab ('https://resonant-gaufre-8a8e97.netlify.app/')} className='images' src={ninja} alt='site2'/>
       </div>
 
 
       <div className='project-2'>
-      <img onClick={() => openInNewTab('https://jovial-chandrasekhar-955da9.netlify.app/')} className='images' src={job} alt='site4'/>
-      <img onClick={() => openInNewTab('https://heuristic-curran-2fac03.netlify.app/')} className='images' id='mentor1' src={car} alt='site3'/>
+      <img onClick={() => openInNewTab('https://iridescent-nougat-be1238.netlify.app/')} className='images' src={calculator} alt='site4'/>
+      <img onClick={() => openInNewTab('https://thirsty-booth-38ef51.netlify.app/')} className='images' id='mentor1' src={pokemon} alt='site3'/>
       </div>
     </div>
 

@@ -125,24 +125,13 @@ p {
 .images{
 height: 100%;
 width: 25%;
+transition: ease 0.5s;
 }
 .images:hover{
   cursor: pointer;
   transform: scale(1.5);
   transition: .3s ease-in-out;
 }
-/* #mentor1{
-  background-size: 100%;
-  background-position: 0 0;
-}
-#mentor1:hover{
-  cursor: pointer;
-  background-size: 150%;
-  background-position: 50px 50px;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-} */
-
 
 
 
