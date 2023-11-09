@@ -1,7 +1,6 @@
 import './App.css';
 import img from './bck-img.png';
 import me from './me-img.png';
-import car from './cars.png';
 import monsters from './monsters-rolodex.png';
 import ninja from './ninja-form.png';
 import calculator from './calculator-pro.png';
