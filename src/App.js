@@ -3,8 +3,9 @@ import img from './bck-img.png';
 import me from './me-img.png';
 import monsters from './monsters-rolodex.png';
 import ninja from './ninja-form.png';
-import calculator from './calculator-pro.png';
+// import calculator from './calculator-pro.png';
 import pokemon from './pokemon.png';
+import smash from './smash-land.png';
 import {FaLaptop, FaMobile, FaGithub, FaLinkedin, FaPhone, FaEnvelope} from 'react-icons/fa';
 
 
@@ -59,9 +60,9 @@ function App() {
       </div>
       <div className='github'>
         <h4>Check out my LinkedIn</h4>
-       <FaLinkedin onClick={() => openInNewTab('https://www.linkedin.com/in/gerardo-talavera/')} className='icons iconLink'/>
+       <FaLinkedin id='linkedIn' onClick={() => openInNewTab('https://www.linkedin.com/in/gerardo-talavera/')} className='icons iconLink'/>
         <h4>Check out my Github</h4>
-        <FaGithub onClick={() => openInNewTab('https://github.com/gtis1-562')} className='icons iconLink'/>
+        <FaGithub id='git' onClick={() => openInNewTab('https://github.com/gtis1-562')} className='icons iconLink'/>
       </div>
     </div>
 
@@ -75,7 +76,7 @@ function App() {
 
 
       <div className='project-2'>
-      <img onClick={() => openInNewTab('https://iridescent-nougat-be1238.netlify.app/')} className='images' src={calculator} alt='site4'/>
+      <img onClick={() => openInNewTab('https://admin-mario.netlify.app/')} className='images' src={smash} alt='site4'/>
       <img onClick={() => openInNewTab('https://thirsty-booth-38ef51.netlify.app/')} className='images' id='mentor1' src={pokemon} alt='site3'/>
       </div>
     </div>
