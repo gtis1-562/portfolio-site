@@ -2,8 +2,9 @@ import './App.css';
 import img from './bck-img.png';
 import me from './me-img.png';
 import monsters from './monsters-rolodex.png';
-import ninja from './ninja-form.png';
+// import ninja from './ninja-form.png';
 // import calculator from './calculator-pro.png';
+import ttt from './ttt.png';
 import pokemon from './pokemon.png';
 import smash from './smash-land.png';
 import {FaLaptop, FaMobile, FaGithub, FaLinkedin, FaPhone, FaEnvelope} from 'react-icons/fa';
@@ -71,7 +72,7 @@ function App() {
       <h1 id='project-head'>Projects</h1>
       <div className="project-1">
         <img onClick={() => openInNewTab('https://statuesque-queijadas-3272df.netlify.app/')} className='images' src={monsters} alt='site1'/>
-      <img onClick={() => openInNewTab ('https://resonant-gaufre-8a8e97.netlify.app/')} className='images' src={ninja} alt='site2'/>
+      <img onClick={() => openInNewTab ('https://ticck-tacck-toeee.netlify.app/')} className='images' src={ttt} alt='site2'/>
       </div>
 
 
